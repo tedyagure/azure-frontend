@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class HomeService {
-  SERVER_URL = 'https://webasignment.azurewebsites.net/file/upload';
+  SERVER_URL = 'https://tedyfd.azurefd.net/file/upload';
   constructor(private httpClient: HttpClient) { }
   public upload(formData) {
 
